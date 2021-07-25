@@ -1,14 +1,15 @@
 
-#lang{
+.lang{
   text-align: right;
   font-family: Verdana;
   font-size: 100%;
 }
 
-body {
+.ja-body {
   text-align: center;
   font-family: ヒラギノ角ゴシック;
   font-size: 100%;
+  font-color: #000;
 }
 
 h1 {
@@ -19,15 +20,6 @@ a {
   text-decoration: none;
 }
 
-.welcome p {
+#welcome p {
   font-size: 150%;
-}
-
-#media-sec img{
-  vertical-align: middle;
-  display: inline-block;
-  height: 50px;
-}
-#media-sec p{
-  display: inline-block;
 }
