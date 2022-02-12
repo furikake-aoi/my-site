@@ -5,9 +5,9 @@ function langchange(event){
   var npath = location.pathname;
   console.log(npath);
   if(npath === "" || npath.startsWith('/index')){
-    location.href = "https://furikake.f5.si/"+lang+npath;
+    //location.href = "https://furikake.f5.si/"+lang+npath;
   } else{
     var ntpath = npath.slice( 3 );
-    location.href = "https://furikake.f5.si/"+lang+ntpath;
+    //location.href = "https://furikake.f5.si/"+lang+ntpath;
   }
 };
