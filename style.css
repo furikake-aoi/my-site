@@ -39,7 +39,7 @@ small{
   display: flex;
   align-items: center;
 }
-.w.w a{
+.w,.w a{
   background-color: #fff;
   color: #000;
 }
@@ -48,6 +48,21 @@ small{
   color: #fff;
 }
 
+/*ボタンCSS*/
+.f-btn{
+  padding: 0.5em 0.5em;
+  border: 1px solid;
+  background: #fff;
+  transition: 0.3s;
+}
+#production a:hover{
+  transition: 0.3s;
+  background: #000;
+  color: #fff;
+}
+#production p{
+  margin-bottom: 1em;
+}
 .r{text-align: right;}
 .l{text-align: left;}
 .c{text-align: center;}
@@ -74,9 +89,7 @@ small{
   }
 }
 
-/*90fdfa
+/*
+//90fdfa
 //1f9ef1
-//https://icooon-mono.com/16011-html%e3%82%bf%e3%82%b0%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3/
-//https://icooon-mono.com/00021-%e3%82%a4%e3%83%b3%e3%83%95%e3%82%a9%e3%83%a1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%9c%e3%82%bf%e3%83%b3%e3%81%ae%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3/
-//https://icooon-mono.com/00126-%e3%82%b3%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ae%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3%e7%b4%a0%e6%9d%90-%e3%81%9d%e3%81%ae4/
 */
