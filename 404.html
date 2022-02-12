@@ -18,7 +18,7 @@
         </div>
         <div class="sec b1" id="first">
             <h1>404</h1>
-            <p>ページが見つかりませんでした。</p>
+            <br><p>ページが見つかりませんでした。</p>
         </div>
         <div class="sec w" id="production">
             <p><span id="count"></span>秒後にトップページへ移動します。</p>
@@ -30,7 +30,7 @@
                 setInterval(function(){
                 cnt--;
                 if(cnt <= 0){
-                window.location.href = "https://suisei-j.f5.si/index.html";
+                window.location.href = "/index.html";
                 }
                 document.getElementById("count").innerHTML = (cnt);
                 },1000)
