@@ -2,11 +2,15 @@ body,section,div,h2,p,a{
   margin: 0;
 }
 h2{
-  font-size: 1.5em;
+  font-size: 2em;
 }
 a,p{
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.25em;
+}
+select{
+  height: 1.5em;
+  font-size: 1.25em;
 }
 a{
   margin-bottom: 0.5em;
