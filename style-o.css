@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 .mb{display: none;}
 body,section,div,h2,p,a{
   margin: 0;
 }
 h2{
   font-size: 2em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Klee One', cursive;
 }
 a,p{
   text-decoration: none;
