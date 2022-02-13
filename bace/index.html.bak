@@ -2,7 +2,6 @@
 <html lang="ja-jp">
 <head>
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="shortcut icon" href="/img/favicon.png">
     <link rel="stylesheet" type="text/css" href="/style.css">
@@ -10,33 +9,33 @@
     <link rel="alternate" hreflang="ja" href="/ja/">
     <link rel="alternate" hreflang="en" href="/en/">
     <link rel="alternate" hreflang="zh-tx" href="/zht/">
-    <title>ホオム | フリカケ</title>
+    <title>ホーム | furikake</title>
 </head>
 <body>
         <div class="w" id="logo">
-            <img src="/img/logo.png" alt="logo">
+            <img src="/img/logo.webp" alt="logo">
         </div>
         <div class="b1" id="hello">
-            <p>コンチクワ。<br>フリカケデス。</p>
+            <p>こんちくわ。<br>furikakeです。</p>
         </div>
         <div class="sec w" id="production">
-            <h2>セイサクブツ</h2>
-            <p>イロイロツクリハジメテイマス。</p>
-            <a href="./production.html" class="f-btn"><span>クワシクミル<span style="font-size: 1.2em;"> ></span></a>
+            <h2>製作物<span class="pc"> | production</span></h2>
+            <p>いろいろ作り始めています。</p>
+            <a href="./production.html" class="f-btn"><span>詳しく見る<span style="font-size: 1.2em;"> ></span></a>
         </div>
         <div class="sec b1" id="media">
-            <h2>メディア</h2>
-            <a href="https://www.twitter.com/aoi_furikake">ツイッター &#8599;</a>
-            <br><a href="https://github.com/furikake-aoi">ギットハブ &#8599;</a>
-            <br><a href="https://cluster.mu/u/furikake_aoi">クラスター &#8599;</a>
+            <h2>メディア<span class="pc"> | Media</span></h2>
+            <a href="https://www.twitter.com/aoi_furikake">Twitter &#8599;</a>
+            <br><a href="https://github.com/furikake-aoi">GitHub &#8599;</a>
+            <br><a href="https://cluster.mu/u/furikake_aoi">Cluster &#8599;</a>
         </div>
         <div class="sec w" id="contact">
-            <h2>オトイアワセ</h2>
-            <a href="https://twitter.com/messages/compose?recipient_id=1256913329655738368">ツイッターディーエム &#8599;</a>
-            <br><a href="mailto:furikake.aoi.info@gmail.com">メエル &#8599;</a>
+            <h2>お問い合わせ<span class="pc"> | contact</span></h2>
+            <a href="https://twitter.com/messages/compose?recipient_id=1256913329655738368">TwitterDM &#8599;</a>
+            <br><a href="mailto:furikake.aoi.info@gmail.com">メール &#8599;</a>
         </div>
         <footer class="sec b1">
-        <p>ゲンゴヲカエル</p>
+        <p>Change your lang<span class="pc">uage</span></p>
         <select id="clang" name="lang" onchange="langchange()">
             <option value="">-----</option>
             <option value="ja">日本語</option>
@@ -46,11 +45,11 @@
             <option value="zht">繁體中文</option>
         </select>
         <p id="un-menu">
-            <a href="./production.html">セイサクブツ</a><span class="pc"> | </span><br class="mb">
+            <a href="./production.html">製作物</a><span class="pc"> | </span><br class="mb">
             <a href="./index.html#media">メディア</a><span class="pc"> | </span><br class="mb">
             <a href="./license.html">ライセンス</a><span class="pc"> | </span><br class="mb">
-            <a href="./index.html#contact">オトイアワセ</a>
+            <a href="./index.html#contact">お問い合わせ</a>
         </p>
-        <small>コピーライト 2022 フリカケ</small>
+        <small>&copy; 2022 furikake</small>
         </footer>
 </body>

@@ -14,7 +14,7 @@
 </head>
 <body>
         <div class="w" id="logo">
-            <img src="/img/logo.png" alt="logo">
+            <img src="/img/logo.webp" alt="logo">
         </div>
         <div class="b1" id="hello">
             <p>こんちくわ。<br>ふりかけです。</p>

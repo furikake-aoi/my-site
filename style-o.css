@@ -2,10 +2,10 @@
 .mb{display: none;}
 body,section,div,h2,p,a{
   margin: 0;
+  font-family: 'Klee One', cursive;
 }
 h2{
   font-size: 2em;
-  font-family: 'Klee One', cursive;
 }
 a,p{
   text-decoration: none;
@@ -69,6 +69,10 @@ small{
   #un-menu{
     font-size: 10px;
     margin-bottom: 0.01em;
+  }
+  select{
+    height: 12px;
+    font-size: 10px;
   }
 }
 

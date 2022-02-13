@@ -2,6 +2,7 @@
 .mb{display: none;}
 body,section,div,h2,p,a{
   margin: 0;
+  font-family: 'Klee One', cursive;
 }
 h2{
   font-size: 2em;
@@ -19,9 +20,6 @@ a{
 }
 small{
   font-size: 0.75em;
-}
-.ja-jp{
-  font-family: 'Klee One', cursive;
 }
 .sec{
   text-align: left;
